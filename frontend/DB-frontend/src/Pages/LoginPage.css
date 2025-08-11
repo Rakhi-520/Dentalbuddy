@@ -1,0 +1,100 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #f0f8ff;
+}
+
+.login-title {
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.login-box {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.login-select {
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.login-button {
+  font-size: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #005f8a;
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+.password-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-actions .cancel-btn {
+  background-color: #ccc;
+}
+
+.modal-actions button:not(.cancel-btn) {
+  background-color: #0077b6;
+  color: white;
+}

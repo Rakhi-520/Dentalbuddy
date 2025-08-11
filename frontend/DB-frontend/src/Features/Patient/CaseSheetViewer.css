@@ -1,0 +1,85 @@
+.details-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f8fcfd; 
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 128, 128, 0.2); 
+  color: #000; 
+}
+
+.details-container h2 {
+  color: #007c91; 
+  margin-bottom: 20px;
+}
+
+.details-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.details-field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333; 
+}
+
+.details-field input,
+.details-field textarea,
+fieldset input,
+fieldset select,
+fieldset textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff; /* white input */
+  color: #000; /* black text */
+}
+
+.details-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.details-buttons button {
+  padding: 8px 16px;
+  background-color: #007c91; /* cyan blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.details-buttons button:hover {
+  background-color: #009fb7; /* lighter cyan */
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 2px solid #e0f7fa; /* light cyan border */
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #f0fbfd; /* very light cyan */
+}
+
+legend {
+  padding: 0 10px;
+  color: #007c91; /* cyan blue */
+  font-weight: bold;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
